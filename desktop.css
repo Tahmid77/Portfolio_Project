@@ -25,3 +25,30 @@
     margin: 28px 0px 0px 20px;
     padding: 10px 20px;
 }
+/*=============================================== */
+
+
+
+
+.profile p{
+    
+    width: 30%;
+}
+
+.bottom-logo{
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    width: 100px;
+    transition: transform 2.5s;
+}
+
+.bottom-logo:hover{
+    transform: rotate(360deg);
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
