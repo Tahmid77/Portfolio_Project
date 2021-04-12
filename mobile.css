@@ -2,12 +2,22 @@
     box-sizing: border-box;
     font-family:  monospace;
 }
+.dotted-hr{
+    border: dotted 6px white;
+    border-bottom: none;
+    width: 60px;
+    margin: 0px auto 20px auto;
+}
 body{
     margin: 0;
 }
 h1{
     font-size: 3rem;
     text-align: center;
+}
+h2{
+    font-size: 2.3rem;
+    text-align: center ;
 }
 a{
     color: wheat;
@@ -69,7 +79,7 @@ p{
 
 .top-logo{
     position: absolute;
-    right: 100px;
+    right: 170px;
     top: 35px;
     transition: transform 2.5s;
 }
@@ -89,7 +99,7 @@ p{
 
 .bottom-logo{
     position: absolute;
-    left: 100px;
+    left: 160px;
     bottom: 10px;
     width: 100px;
     transition: transform 2.5s;
@@ -97,4 +107,41 @@ p{
 
 .bottom-logo:hover{
     transform: rotate(360deg);
+}
+
+/*=============================================== */
+.about-me{
+    background-color: #7BB970;
+    padding: 1% 7%;
+    text-align: center;
+    color: azure;
+    font-family: monospace;
+}
+
+
+.about-me-image img{
+    width: 100px; 
+    border-radius: 50%;
+    border:solid 6px rgb(204, 238, 235);
+
+}
+
+.about-me::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.about-me p{
+    text-align: center;
+}
+.cv-button{
+    background-color: rgb(15, 240, 128);
+    color: whitesmoke;
+    border:none;
+    border-radius: 10%;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px 0px;
+
 }
