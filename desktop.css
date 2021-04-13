@@ -23,7 +23,7 @@
     justify-content: flex-end;
 }
 .nav-menu a{
-    margin: 28px 0px 0px 20px;
+    margin: 28px 10px 0px 20px;
     padding: 10px 20px;
 }
 /*=============================================== */
@@ -55,21 +55,26 @@
 }
 
 /*=============================================== */
-.about-me-image{
-    float: left;
-    margin-top: 80px;
-    margin-left: 100px;
-    margin-right:100px ;
-}
+
 .about-me-image img{
     width: 150px;
-}
-.about-me-desc{
-    margin-left: 50px;
 }
 .about-me-desc p{
     text-align: left;
 }
 
+.about-me-image{
+    margin-top: 80px;
+    }
+.about-me-desc{
+    margin:0px auto; 
+}
+
 
 /*=============================================== */
+.education{
+    margin: 10px 120px;
+}
+.work-experience{
+    margin-left: 20px;
+}

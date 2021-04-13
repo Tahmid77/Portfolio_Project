@@ -145,3 +145,80 @@ p{
     margin: 10px 0px;
 
 }
+
+/*=============================================== */
+
+.professional-experience{
+    padding: 1%;
+    color: azure;
+}
+.work-experience{
+    background-color: #63a557;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.work-experience:hover{
+    box-shadow: 0 5px 7px 5px gray;
+}
+.card-icon{
+    text-align: center;
+    padding-top: 5px;
+}
+.card-icon img{
+    width: 80px;
+    border: solid 5px whitesmoke;
+    border-radius: 50%;
+    padding: 5px;
+}
+.card-title{
+    background-color: #48853e;
+    border-radius: 500px;
+    text-transform: uppercase;
+}
+.education{
+    background-color: #63a557;
+    border-radius: 10px;
+    margin: 10px 00px;
+}
+.education:hover{
+    box-shadow: 0 5px 7px 5px gray;
+}
+.skills{
+    background-color: #63a557;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.skills:hover{
+    box-shadow: 0 5px 7px 5px gray;
+}
+.skill-container{
+    margin-right: 20px;
+}
+.skill-container ul{
+    list-style-type: none;
+}
+.skill-container ul li{
+    padding: 22.5px 0px;
+    text-transform: uppercase;
+    position: relative;
+}
+.skill-container ul li::before{
+    content: '';
+    width:80%;
+    height: 10px;
+    background-color: #49833f;
+    position: absolute;
+    top: 55px;
+    border-radius: 1000px;
+}
+
+
+.professional-experience::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
