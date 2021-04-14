@@ -73,8 +73,25 @@
 
 /*=============================================== */
 .education{
-    margin: 10px 120px;
+    width: 30%;
+    margin: 10px 20px 0px 20px;
 }
 .work-experience{
-    margin-left: 20px;
+    width: 30%;
+    margin-right: 30px;
+}
+.skills{
+    width: 30%;
+    margin-left: 30px;
+}
+/*=============================================== */
+
+.achievment{
+    padding-right: 50px;
+}
+.contact{
+    padding-right: 20px;
+}
+.contact-list{
+    padding-left: 20px;
 }

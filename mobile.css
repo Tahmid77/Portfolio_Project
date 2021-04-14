@@ -149,7 +149,7 @@ p{
 /*=============================================== */
 
 .professional-experience{
-    padding: 1%;
+    padding: 1% 2%;
     color: azure;
 }
 .work-experience{
@@ -199,26 +199,129 @@ p{
     list-style-type: none;
 }
 .skill-container ul li{
-    padding: 22.5px 0px;
+    padding: 0px 0px 44.8px 0px;
     text-transform: uppercase;
     position: relative;
 }
-.skill-container ul li::before{
+.skill-container ul li.html::before{
     content: '';
     width:80%;
     height: 10px;
     background-color: #49833f;
     position: absolute;
-    top: 55px;
     border-radius: 1000px;
+    top:calc(100% - 30px)
 }
-
+.skill-container ul li.css::before{
+    content: '';
+    width:50%;
+    height: 10px;
+    background-color: #49833f;
+    position: absolute;
+    border-radius: 1000px;
+    top:calc(100% - 30px)
+}
+.skill-container ul li.c::before{
+    content: '';
+    width:60%;
+    height: 10px;
+    background-color: #49833f;
+    position: absolute;
+    border-radius: 1000px;
+    top:calc(100% - 30px)
+}
+.skill-container ul li.cpp::before{
+    content: '';
+    width:70%;
+    height: 10px;
+    background-color: #49833f;
+    position: absolute;
+    border-radius: 1000px;
+    top:calc(100% - 30px)
+}
+.skill-container ul li.java::before{
+    content: '';
+    width:40%;
+    height: 10px;
+    background-color: #49833f;
+    position: absolute;
+    border-radius: 1000px;
+    top:calc(100% - 30px)
+}
 
 .professional-experience::after{
     content: '';
     display: table;
     clear: both;
 }
+/*=============================================== */
+
+.achievment-contact{
+    padding: 1% 7% 0% 7%;
+    background-color: #7BB970;
+    margin-top: 2%;
+    color: azure;
+}
+.contact{
+    text-align: center;
+}
+.contact textarea, input{
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact button{
+    margin: 5px;
+    padding: 10px 10px;
+    border: none;
+    color: azure;
+    background-color: rgb(46, 205, 211);
+    border-radius: 5px;
+
+}
+.contact button:hover{
+    border: solid 1px black;
+    color: azure;
+    background-color: rgb(26, 164, 168);
+    
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 25px;
+    background-color: white;
+}
+.btn:hover{
+    background-color: grey;
+
+}
+.contact-list{
+    text-align: center;
+}
 
 
+.achievment-contact::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*=============================================== */
+.footer{
+    background-color: black;
+    color: azure;
+    padding: 20px;
+    text-align: center;
+}
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
 
+}
